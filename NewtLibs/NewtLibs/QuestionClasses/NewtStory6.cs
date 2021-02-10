@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewtLibs
 {
-    class NewtStory6s
+    class NewtStory6
     {
         public static List<string> Story()
         {
@@ -15,28 +15,24 @@ namespace NewtLibs
 
             List<string> words = new List<string>();
 
-            Console.WriteLine("Enter an athlete's name");
+            Console.WriteLine("Enter an adjective.");
             words.Add(Console.ReadLine()); //0
-            Console.WriteLine("Enter a famous singer's name");
+            Console.WriteLine("Enter an adjective.");
             words.Add(Console.ReadLine()); //1
-            Console.WriteLine("Enter a adjective");
+            Console.WriteLine("Enter a plural noun.");
             words.Add(Console.ReadLine()); //2
-            Console.WriteLine("Enter a noun");
+            Console.WriteLine("Enter a game.");
             words.Add(Console.ReadLine()); //3
-            Console.WriteLine("Enter an emotion");
+            Console.WriteLine("Enter a verb ending in ing.");
             words.Add(Console.ReadLine()); //4
-            Console.WriteLine("Enter a plural noun (living thing)");
+            Console.WriteLine("Enter a verb ending in ing.");
             words.Add(Console.ReadLine()); //5
-            Console.WriteLine("Enter a noun plural");
+            Console.WriteLine("Enter an adjective.");
             words.Add(Console.ReadLine()); //6
-            Console.WriteLine("Enter an emotion");
+            Console.WriteLine("Enter a number");
             words.Add(Console.ReadLine()); //7
-            Console.WriteLine("Enter a place");
+            Console.WriteLine("Enter a plural noun.");
             words.Add(Console.ReadLine()); //8
-            Console.WriteLine("Enter a liquid");
-            words.Add(Console.ReadLine()); //9
-            Console.WriteLine("Enter a year in the future");
-            words.Add(Console.ReadLine()); //10
             return words;
         }
 
