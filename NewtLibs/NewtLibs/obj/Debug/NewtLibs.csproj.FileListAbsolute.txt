@@ -1,7 +1,0 @@
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\bin\Debug\NewtLibs.exe.config
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\bin\Debug\NewtLibs.exe
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\bin\Debug\NewtLibs.pdb
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\obj\Debug\NewtLibs.csprojAssemblyReference.cache
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\obj\Debug\NewtLibs.csproj.CoreCompileInputs.cache
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\obj\Debug\NewtLibs.exe
-C:\Users\rodne\source\repos\1150\NewtLibs\NewtLibs\obj\Debug\NewtLibs.pdb

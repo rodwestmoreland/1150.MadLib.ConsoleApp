@@ -12,31 +12,33 @@ namespace NewtLibs
         {
             var setTitle = new Message("Story 3");
             setTitle.SetStoryTitle();
-            
-            List<string> words = new List<string>();
 
-            Console.WriteLine("Enter an athlete's name");
+            Console.Clear();
+            List<string> words = new List<string>();
+            
+            Console.WriteLine("Enter a noun.");
             words.Add(Console.ReadLine()); //0
-            Console.WriteLine("Enter a famous singer's name");
+            Console.WriteLine("Enter a noun.");
             words.Add(Console.ReadLine()); //1
-            Console.WriteLine("Enter a adjective");
+            Console.WriteLine("Enter a noun.");
             words.Add(Console.ReadLine()); //2
-            Console.WriteLine("Enter a noun");
+            Console.WriteLine("Name of a famous individual.");
             words.Add(Console.ReadLine()); //3
-            Console.WriteLine("Enter an emotion");
+            Console.WriteLine("Enter a verb.");
             words.Add(Console.ReadLine()); //4
-            Console.WriteLine("Enter a plural noun (living thing)");
+            Console.WriteLine("Name of a location.");
             words.Add(Console.ReadLine()); //5
-            Console.WriteLine("Enter a noun plural");
+            Console.WriteLine("Enter a noun.");
             words.Add(Console.ReadLine()); //6
-            Console.WriteLine("Enter an emotion");
+            Console.WriteLine("Enter an adjective relating to the previous question.");
             words.Add(Console.ReadLine()); //7
-            Console.WriteLine("Enter a place");
+            Console.WriteLine("Enter a verb ending with (ing).");
             words.Add(Console.ReadLine()); //8
-            Console.WriteLine("Enter a liquid");
+            Console.WriteLine("Enter a plural noun.");
             words.Add(Console.ReadLine()); //9
-            Console.WriteLine("Enter a year in the future");
+            Console.WriteLine("Enter an emotion.");
             words.Add(Console.ReadLine()); //10
+            Console.Clear();
             return words;
         }
 
