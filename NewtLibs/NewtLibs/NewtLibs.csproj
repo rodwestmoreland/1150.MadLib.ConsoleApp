@@ -48,9 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Message.cs" />
-    <Compile Include="QuestionClasses\NewtStory6.cs" />
-    <Compile Include="QuestionClasses\NewtStory4.cs" />
     <Compile Include="QuestionClasses\NewtStory3.cs" />
+    <Compile Include="QuestionClasses\NewtStory4.cs" />
+    <Compile Include="QuestionClasses\NewtStory6.cs" />
     <Compile Include="QuestionClasses\NewtStory2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
