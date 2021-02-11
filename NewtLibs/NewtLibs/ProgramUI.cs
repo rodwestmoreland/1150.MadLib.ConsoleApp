@@ -15,13 +15,13 @@ namespace NewtLibs
             bool continueToRun = true;
             while (continueToRun)
             {
-                Console.WriteLine("Welcome to NewtLibs! The game where you fill in the ___!! Which NewtLib would you like? \n\n" +
+                Console.WriteLine("Welcome to NewtLibs! The game where you create a silly story!! \n\nWhich NewtLib would you like? \n\n" +
                         "1. A Very Odd Day\n" +
                         "2. Important Considerations\n" +
-                        "3. Our Fight\n" +
-                        "4. Once Upon a Time... \n" +
-                        "5. The Dev Life 5\n" +
-                        "6. Get Away\n" +
+                        "3. War, War Never Changes\n" +
+                        "4. A Strange Story \n" +
+                        "5. Software Developer 76\n" +
+                        "6. Vacation\n" +
                         "7. Random Story\n" +
                         "8. Exit");
 
@@ -31,7 +31,13 @@ namespace NewtLibs
                 {
                     if (num == 8)
                     { Environment.Exit(0); }
-                    else if(num > 0 && num < 8)
+                    else if(num == 7)
+                    {
+                        Random surpriseMe = new Random();
+                        num = surpriseMe.Next(1, 7);
+                        CreateStory(num);
+                    }
+                    else if (num > 0 && num < 7)
                     {
                         CreateStory(num);
                     }
@@ -133,8 +139,8 @@ namespace NewtLibs
                     Console.WriteLine($" I am currently enrolled in a Software Development class. It's much more {words[0]} than I thought it would be.\n" +
                       $"The instructor is very {words[1]} when it comes to teaching. My favorite LA is {words[2]}, he helps the most. {words[3]} \n" +
                       $"is the smartest student, {words[4]} puts the most time into studying, {words[5]} is always sharing the best resources. {words[6]} \n" +
-                      $"seems to be what we always get off topic about, but after a little bit of {words[7]}, we always get back on track. I can't wait \n" +
-                      $"to graduate, I'm going to go to {words[8]} to celebrate!!");
+                      $"seems to be what we always get off topic about, but after a little bit of {words[7]}, we always get back on track.\n" +
+                      $"\n\nI can't wait  to graduate, I'm going to go to {words[8]} to celebrate!!");
                     Console.WriteLine($"\n\n   -- Click any key to return to the main menu --");
                     break;
 
@@ -143,7 +149,7 @@ namespace NewtLibs
                     words = NewtStory6.Story();
                     Console.Clear();
                     Console.WriteLine($"A vacation is when you take a trip to some {words[0]} place with your {words[1]} family. A good vacation place\n" +
-                        $"is one where you can ride {words[2]}, and play {words[3]} game. I like to spend my time {words[4]} or {words[5]}. Parents\n" +
+                        $"is one where you can ride {words[2]}, and play a game like {words[3]}. I like to spend my time {words[4]} or {words[5]}. Parents\n" +
                         $"need vacations more than kids because parents are always very {words[6]} and because they have to work {words[7]} hours every\n" +
                         $"day all year long making enough {words[8]} to pay for the vacation.");
                     Console.WriteLine($"\n\n   -- Click any key to return to the main menu --");

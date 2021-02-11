@@ -10,10 +10,9 @@ namespace NewtLibs
     {
         public static List<string> Story()
         {
-            var setTitle = new Message("Story 3");
+            var setTitle = new Message("War, War Never Changes");
             setTitle.SetStoryTitle();
 
-            Console.Clear();
             List<string> words = new List<string>();
             
             Console.WriteLine("Enter a noun.");

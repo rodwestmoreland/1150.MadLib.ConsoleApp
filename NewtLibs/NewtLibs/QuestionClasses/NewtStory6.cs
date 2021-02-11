@@ -10,7 +10,7 @@ namespace NewtLibs
     {
         public static List<string> Story()
         {
-            var setTitle = new Message("Story 6");
+            var setTitle = new Message("Vacation");
             setTitle.SetStoryTitle();
 
             List<string> words = new List<string>();
