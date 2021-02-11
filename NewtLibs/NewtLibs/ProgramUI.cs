@@ -18,10 +18,10 @@ namespace NewtLibs
                 Console.WriteLine("Welcome to NewtLibs! The game where you fill in the ___!! Which NewtLib would you like? \n\n" +
                         "1. A Very Odd Day\n" +
                         "2. Important Considerations\n" +
-                        "3. Story 3\n" +
-                        "4. Story 4\n" +
-                        "5. Story 5\n" +
-                        "6. Story 6\n" +
+                        "3. Our Fight\n" +
+                        "4. Once Upon a Time... \n" +
+                        "5. The Dev Life 5\n" +
+                        "6. Get Away\n" +
                         "7. Random Story\n" +
                         "8. Exit");
 
@@ -110,7 +110,7 @@ namespace NewtLibs
                     Console.WriteLine($"It was during the battle of {words[0]} when I was running through a {words[1]} when a {words[2]} went off right next to my platoon. \n" +
                     $"{words[3]}, our commanding officer, yelled for us to {words[4]} to the nearest {words[5]} we could find. When we got to the \n" +
                     $" {words[5]} we had to start a {words[6]}. As we were starting the fire the enemy saw the {words[7]} from the fire and started {words[8]} at us. \n" +
-                    $"We all quickly ducked behind the {words[9]} and returned fire. we quickly eliminated the enemy and were {words[10]} that we \n" +
+                    $"\nWe all quickly ducked behind the {words[9]} and returned fire. we quickly eliminated the enemy and were {words[10]} that we \n" +
                     $" had won the battle.");
                     Console.WriteLine($"\n\n   -- Click any key to return to the main menu --");
                     break;
@@ -119,9 +119,10 @@ namespace NewtLibs
 
                     words = NewtStory4.Story();
                     Console.Clear();
-                    Console.WriteLine($" Once upon a time there was a {words[0]}. It had {words[1]} {words[2]}! One day it met {words[3]}on the side of the {words[4]},they were {words[5]}.\n" +
-                    $" It was very {words[6]}; they both looked like hobos! All of the sudden they started singing {words[7]}really loudly.\n" +
-                    $" Then we started {words[8]}with {words[9]}. They looked really {words[10]}!");
+                    Console.WriteLine($"Once upon a time there was a {words[0]}. It had {words[1]} {words[2]}! One day it met {words[3]} on the side of the\n " +
+                        $"{words[4]}, they were {words[5]}. It was very { words[6]}; they both looked like hobos! All of a sudden they started singing\n" +
+                    $"\"{words[7]}\" really loudly.\n\n" +
+                    $" Then we started {words[8]} with {words[9]}. They looked really {words[10]}!");
                     Console.WriteLine($"\n\n   -- Click any key to return to the main menu --");
                     break;
 

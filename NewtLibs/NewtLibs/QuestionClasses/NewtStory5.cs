@@ -33,8 +33,7 @@ namespace NewtLibs
             words.Add(Console.ReadLine()); //7
             Console.WriteLine("Enter a place");
             words.Add(Console.ReadLine()); //8
-            words.Add(null);
-            words.Add(null);
+          
 
             return words;
         }

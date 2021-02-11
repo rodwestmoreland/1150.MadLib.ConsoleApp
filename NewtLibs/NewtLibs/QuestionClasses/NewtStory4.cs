@@ -30,7 +30,7 @@ namespace NewtLibs
             words.Add(Console.ReadLine()); //6
             Console.WriteLine("Enter the name of a song.");
             words.Add(Console.ReadLine()); //7
-            Console.WriteLine("Enter the name of a verb.");
+            Console.WriteLine("Enter a verb ending in -ing.");
             words.Add(Console.ReadLine()); //8
             Console.WriteLine("Enter the name of another famous individual.");
             words.Add(Console.ReadLine()); //9
