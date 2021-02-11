@@ -63,12 +63,12 @@ namespace NewtLibs
                 case 4:
                     words = NewtStory4.Story();
                     break;
-                    //case 5:
-                    //    words = NewtStory5.Story();
-                    //    break;
-                    //case 6:
-                    //    words = NewtStory6.Story();
-                    //    break;
+                case 5:
+                    words = NewtStory5.Story();
+                    break;
+                case 6:
+                    words = NewtStory6.Story();
+                    break;
             }
             
 
@@ -115,7 +115,12 @@ namespace NewtLibs
                     $" It was very {words[6]}; they both looked like hobos! All of the sudden they started singing {words[7]}really loudly.\n" +
                     $" Then we started {words[8]}with {words[9]}. They looked really {words[10]}!"
                 },
-
+                {
+                  5, $" I am currently enrolled in a Software Development class. It's much more {words[0]} than I thought it would be. The instructor is very {words[1]} when it comes to teaching. My favorite LA is {words[2]}, he helps the most. {words[3]} is the smartest student, {words[4]} puts the most time into studying, {words[5]} is always sharing the best resources. {words[6]} seems to be what we always get off topic about, but after a little bit of {words[7]}, we always get back on track. I can't wait to graduate, I'm going to go to {words[8]} to celebrate!!"
+                },
+                {
+                  6, $"A vacation is when you take a trip to some {words[0]} place with your {words[1]} family. A good vacation place is one where you can ride {words[2]}, and play {words[3]} game. I like to spend my time {words[4]} or {words[5]}. Parents need vacations more than kids because parents are always very {words[6]} and because they have to work {words[7]} hours every day all year long making enough {words[8]} to pay for the vacation."
+                }
             };
 
             Console.WriteLine(storyComplete[selector]);
@@ -124,9 +129,6 @@ namespace NewtLibs
             Console.Clear();
 
         }// \createStory
-
-
-
 
 
 
