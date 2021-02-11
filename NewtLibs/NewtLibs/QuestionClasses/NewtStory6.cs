@@ -33,6 +33,9 @@ namespace NewtLibs
             words.Add(Console.ReadLine()); //7
             Console.WriteLine("Enter a plural noun.");
             words.Add(Console.ReadLine()); //8
+            words.Add(null);
+            words.Add(null);
+
             return words;
         }
 

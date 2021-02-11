@@ -38,7 +38,6 @@ namespace NewtLibs
             words.Add(Console.ReadLine()); //9
             Console.WriteLine("Enter an emotion.");
             words.Add(Console.ReadLine()); //10
-            Console.Clear();
             return words;
         }
 

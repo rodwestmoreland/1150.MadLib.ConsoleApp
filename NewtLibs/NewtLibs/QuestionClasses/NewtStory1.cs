@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewtLibs
 {
-    public class NewtStory1
+    class NewtStory1
     {
        
         public static List<string> Story()
@@ -38,6 +38,8 @@ namespace NewtLibs
             words.Add(Console.ReadLine()); //9
             Console.WriteLine("Enter a year in the future");
             words.Add(Console.ReadLine()); //10
+
+            Console.Clear();
             return words;
         }
 
