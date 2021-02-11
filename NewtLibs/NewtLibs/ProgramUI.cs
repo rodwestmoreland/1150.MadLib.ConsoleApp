@@ -15,9 +15,9 @@ namespace NewtLibs
             bool continueToRun = true;
             while (continueToRun)
             {
-                Console.WriteLine("Welcome to NewtLibs! The game where ___. Which NewtLib would you like? \n\n" +
-                        "1. Story 1\n" +
-                        "2. Story 2\n" +
+                Console.WriteLine("Welcome to NewtLibs! The game where you fill in the ___!! Which NewtLib would you like? \n\n" +
+                        "1. A Very Odd Day\n" +
+                        "2. Important Considerations\n" +
                         "3. Story 3\n" +
                         "4. Story 4\n" +
                         "5. Story 5\n" +
@@ -47,6 +47,9 @@ namespace NewtLibs
         {
 
             List<string> words = new List<string>();
+            Console.WriteLine(words.Count);
+            Console.ReadLine();
+
             int selector = select;
 
             switch (selector) //Our questions
@@ -85,24 +88,11 @@ namespace NewtLibs
                    2, $"The {words[0]} virus is affecting {words[1]} of people around the {words[2]}.\n" +
                    $"The outbreak was first identified in {words[3]} and was recognized as a pandemic by the World \n" +
                    $"{words[4]} Organization on March ll. lt is also called COVID-19, which is an abbreviation \n" +
-                   $"for{words[5]} {words[6]} {words[7]} {words[8]} {words[9]}.\n" +
+                   $"for {words[5]} {words[6]} {words[7]} {words[8]} {words[9]}.\n" +
                    $"\nThe virus is mainly spread during close contact when people {words[10]} or {words[11]}. People can also \n" +
-                   $"catch it by touching a contaminated surface and then touching their {words[12]}. Common symptoms \n" +
-                   $"include {words[13]} and a {words[14]} throat. However, you may have the virus without showing any of these \n" +
-                   $"symptoms, so it is important to heed the precautions even if you think you are well. {words[15]} \n" +
-                   $"people are particularly vulnerable to the virus. \n" +
-                   $"\nAs a society, out of love for others, we are working to flatten the curve. To do so, social \n" +
-                   $"distancing is very important. We must all stay in our {words[16]} unless we have essential things to do \n" +
-                   $"like {words[17]} groceries. If we are outside for essential activities or exercise, it is critical \n" +
-                   $"to keep six {words[18]} away from people.\n" +
-                   $"\nlt is also very important to wash your {words[19]} very often. I try to do so {words[20]} times per day\n" +
-                   $"and each time it should last 20 {words[21]}.To help me wash for enough time, I sing {words[22]}.\n" +
-                   $"lt’s also important to not touch your {words[23]} or {words[24]} and if you need to cough, please do not \n" +
-                   $"cough into your hand, but instead into your {words[25]}. When greeting people, you can no longer \n" +
-                   $"shake {words[26]}. Instead, we suggest {words[27]} from a distance and yelling {words[28]}.\n" +
-                   $"\nWidespread panic has spurred panic buying. ln particular, people love to buy quarantine snacks and {words[29]}.\n" +
-                   $"\nWe are so thankful for our healthcare and other essential workers. They are heroes like {words[30]}."
+                   $"catch it by touching a contaminated surface and then touching their {words[12]}. Common symptoms \n" 
                 },
+
                 {
                     3, $"It was during the battle of {words[0]} when I was running through a {words[1]} when a {words[2]} went off right next to my platoon. \n" +
                     $"{words[3]}, our commanding officer, yelled for us to {words[4]} to the nearest {words[5]} we could find. When we got to the \n" +
@@ -114,12 +104,13 @@ namespace NewtLibs
                     4, $" Once upon a time there was a {words[0]}. It had {words[1]} {words[2]}! One day it met {words[3]}on the side of the {words[4]},they were {words[5]}.\n" +
                     $" It was very {words[6]}; they both looked like hobos! All of the sudden they started singing {words[7]}really loudly.\n" +
                     $" Then we started {words[8]}with {words[9]}. They looked really {words[10]}!"
-                },
+                }
 
             };
 
-            Console.WriteLine(storyComplete[selector]);
+            Console.WriteLine("Here is your story...\n" + storyComplete[selector]);
             Console.WriteLine();
+            Console.WriteLine(words.Count);
             Console.ReadLine();
             Console.Clear();
 
